@@ -2,7 +2,7 @@
 
 
 include_once 'include/setting.php';
-
+// This Error 
 
 $url = explode("/", $_SERVER["REQUEST_URI"]);
 $path = $url[2] == "" ? "MPage": $url[2];
